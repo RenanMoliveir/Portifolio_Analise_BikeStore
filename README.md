@@ -17,3 +17,11 @@ A Query a seguir realiza uma análise de vendas por categoria de produto na base
 Clique para ver o [Repositório](https://github.com/RenanMoliveir/Portifolio_Analise_BikeStore/blob/main/SQL/02%20An%C3%A1lise%20de%20Vendas%20por%20Categoria%20de%20Produto.sql)
 
 
+## Análise de Vendas por Região
+
+![03](https://github.com/user-attachments/assets/51ac9219-cbc1-44be-8859-887257d295b3)
+
+Essa análise permite entender o desempenho de vendas por região. Ao agrupar os dados por regiões, a consulta fornece insights sobre quais locais estão gerando mais receita. Esses dados podem ser usados para otimizar a alocação de recursos, identificar potenciais regiões com baixo desempenho e ajustar estratégias de marketing.
+
+Clique para ver o [Repositório](https://github.com/RenanMoliveir/Portifolio_Analise_BikeStore/blob/main/SQL/03%20vendas%20por%20regi%C3%A3o%20e%20loja.sql)
+
