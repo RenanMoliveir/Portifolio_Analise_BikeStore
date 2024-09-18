@@ -25,3 +25,12 @@ Essa análise permite entender o desempenho de vendas por região. Ao agrupar os
 
 Clique para ver o [Repositório](https://github.com/RenanMoliveir/Portifolio_Analise_BikeStore/blob/main/SQL/03%20vendas%20por%20regi%C3%A3o%20e%20loja.sql)
 
+
+## Análise de Vendas por Brand
+
+![04](https://github.com/user-attachments/assets/f2397485-c965-4376-a320-d45bf6b13182)
+
+Este código realiza uma análise de vendas por marca na base de dados BikeStores. A consulta agrega a quantidade total de produtos vendidos para cada marca, ordenando os resultados pela quantidade de vendas de forma decrescente.
+
+
+
