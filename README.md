@@ -33,4 +33,9 @@ Clique para ver o [Repositório](https://github.com/RenanMoliveir/Portifolio_Ana
 Este código realiza uma análise de vendas por marca na base de dados BikeStores. A consulta agrega a quantidade total de produtos vendidos para cada marca, ordenando os resultados pela quantidade de vendas de forma decrescente.
 
 
+## Modelo de dados no Power BI
+
+
+![Modelo de dados](https://github.com/user-attachments/assets/115be714-87b9-464c-8360-b4ff50a24c3f)
+
 
