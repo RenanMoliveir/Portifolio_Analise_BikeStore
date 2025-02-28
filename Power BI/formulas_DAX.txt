@@ -1,0 +1,62 @@
+01 vendas = SUM(fact_Sales[Total])
+
+02 ticket medio = AVERAGE(fact_Sales[Total])
+
+03 Total de Orders = COUNT(fact_Sales[OrderID])
+
+04 CALCULATE + ALL = 
+CALCULATE(
+    [01 vendas];
+    ALL(dim_calendario[Ano])
+)
+
+05 porcentagem ano = 
+DIVIDE(
+    [01 vendas];
+    [04 CALCULATE + ALL]
+)
+
+06 porcentagem por categorias = 
+CALCULATE(
+    DIVIDE(
+        [01 vendas];
+        CALCULATE(
+            [01 vendas];
+            ALL(dim_product[CategoryID])
+        )
+    )
+)
+
+07 Percente ALLSELECTED = 
+CALCULATE(
+    DIVIDE(
+        [01 vendas];
+            CALCULATE(
+                [01 vendas];
+                ALLSELECTED(dim_calendario[Ano])
+            )
+    )
+)
+
+08 Percent_Store = 
+CALCULATE(
+    DIVIDE(
+        [01 vendas];
+        CALCULATE(
+            [01 vendas];
+            ALL(dim_store[StoreID])
+        )
+    )
+)
+
+09 Total Product ALL = 
+CALCULATE(
+    [01 vendas];
+    ALL(dim_product)
+)
+
+10 % product ALL = 
+DIVIDE(
+    [01 vendas];
+    [09 Total Product ALL]
+)
